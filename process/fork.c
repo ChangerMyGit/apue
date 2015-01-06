@@ -15,7 +15,7 @@ int main(){
       globvar++;
       var++;
    } else {
-      sleep(2);
+      sleep(20);
    }
    printf("pid = %ld , globval = %d , var = %d \n",(long)getpid(),globvar,var);
    exit(0);
